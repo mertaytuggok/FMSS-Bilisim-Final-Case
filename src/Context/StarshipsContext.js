@@ -27,7 +27,6 @@ export const StarshipsProvider = ({ children }) => {
             return [prevState, ...data.results];
           }
         });
-        console.log(starshipsData);
       } catch {
         toast.error("Veri alinirken bir hata oluştu");
       }
