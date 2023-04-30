@@ -1,0 +1,52 @@
+.mainContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+  padding: 1rem 5rem;
+}
+.Card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  border: 1px solid whitesmoke;
+  border-radius: 0.5rem;
+
+  background-color: rgb(8, 8, 59);
+  color: steelblue;
+
+  padding: 1rem 1rem;
+  text-align: center;
+  margin: 40px 0 0;
+  min-height: 20rem;
+  padding: 1rem 1rem;
+}
+.Name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.Title {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.UploadMore {
+  background-color: darkcyan;
+  padding: 0.8rem 2rem;
+  border-radius: 5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 5rem;
+  border: none;
+}
+.linkText {
+  text-decoration: none;
+}
+.linkText:hover {
+  color: whitesmoke;
+}
+@media only screen and (max-width: 375px) {
+  .mainContainer {
+    padding: 0.5rem 2.5rem;
+  }
+}
