@@ -1,0 +1,35 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 5rem 0;
+}
+.Createdby {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.FooterName {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.FooterLogo {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.github {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: steelblue;
+  gap: 1rem;
+}
+.githubLogo {
+  background-color: white;
+  background-size: 2rem;
+  border-radius: 100%;
+}
