@@ -54,11 +54,11 @@
 
 @media only screen and (max-width: 375px) {
   .CardBottom {
-    padding-left: 1rem;
+    padding: 1rem;
   }
   .Starships {
     padding: 0;
-    width: 5rem;
+    max-width: 18rem;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -72,7 +72,7 @@
 }
 @media only screen and (max-width: 320px) {
   .CardBottom {
-    padding-left: 1rem;
+    padding: 1rem;
   }
   .Starships {
     padding: 0;
