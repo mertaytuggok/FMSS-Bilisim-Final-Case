@@ -1,0 +1,25 @@
+.HeaderMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 12rem;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+.HeaderLogo {
+  max-height: 6rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .Header {
+    padding-top: 5rem;
+  }
+}
