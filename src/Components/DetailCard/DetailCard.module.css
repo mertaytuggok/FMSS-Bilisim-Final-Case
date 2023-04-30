@@ -1,0 +1,91 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.5rem;
+  border: 1px solid whitesmoke;
+  box-sizing: border-box;
+  color: steelblue;
+  border-radius: 0.5rem;
+  max-height: 50rem;
+  max-width: 50rem;
+}
+.Starships {
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CardBottom {
+  padding: 0 1rem 4rem 6rem;
+  margin: 40px 0 0;
+}
+.Name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.Title {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.UploadMore {
+  background-color: darkcyan;
+  padding: 0.8rem 2rem;
+  border-radius: 5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 5rem;
+}
+.DetailMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BackButton {
+  background-color: transparent;
+  rotate: 180deg;
+  border: none;
+  cursor: pointer;
+  max-width: 2rem;
+  margin: 2rem 2rem;
+}
+
+@media only screen and (max-width: 375px) {
+  .CardBottom {
+    padding-left: 1rem;
+  }
+  .Starships {
+    padding: 0;
+    width: 5rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .CardBottom {
+    padding-left: 1rem;
+  }
+  .Starships {
+    padding: 0;
+    width: 5rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .CardBottom {
+    padding-left: 1rem;
+  }
+  .Starships {
+    padding: 0;
+    width: 2rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .BackButton {
+    margin-top: 3rem;
+  }
+  .Starships {
+    width: 25rem;
+    padding-left: 1rem;
+  }
+}
