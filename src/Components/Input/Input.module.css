@@ -40,7 +40,10 @@
 }
 
 @media only screen and (max-width: 550px) {
-  .InputMain {
+  .MainInput {
     flex-direction: column;
+  }
+  .Seperator {
+    width: 15rem;
   }
 }
